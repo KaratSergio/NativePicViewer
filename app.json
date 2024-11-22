@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "NativeAuth",
+    "slug": "NativeAuth",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splashscreen_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.karat_sergio.NativeAuth"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "87b4fccf-a98a-439b-966f-1b9da405d992"
+      }
+    }
+  }
+}
