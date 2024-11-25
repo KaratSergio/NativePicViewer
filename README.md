@@ -24,7 +24,7 @@
 
 **API:** [reqres.in](https://reqres.in)  
 **Приклад екрану:**  
-<img src="./public/screen_1.png" alt="Екран аутентифікації" width="816">
+<img src="./public/Screen_1.png" alt="Екран аутентифікації" width="816">
 
 ---
 
@@ -40,7 +40,7 @@
 
 **Джерело даних:** [picsum.photos API](https://picsum.photos)  
 **Приклад екрану:**  
-<img src="./public/screen_2.png" alt="Feed сторінка" width="410">
+<img src="./public/Screen_2.png" alt="Feed сторінка" width="410">
 
 ---
 
