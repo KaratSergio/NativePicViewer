@@ -23,6 +23,7 @@ const LoginScreen = () => {
   const navigation = useNavigation<NativeStackNavigationProp<RootParamList>>();
   const [emailFromStorage, setEmailFromStorage] = useState<string | null>(null);
   const { theme } = useTheme();
+  
   const {
     control,
     handleSubmit,

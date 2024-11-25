@@ -1,5 +1,6 @@
 import * as React from 'react';
-import store from '../store/store';
+import store, { persistor } from '../store/store';
+import { PersistGate } from 'redux-persist/integration/react';
 import { Provider } from 'react-redux';
 import '../../assets/global.css';
 
@@ -10,11 +11,13 @@ import { ThemeProvider } from '../theme/themeContext';
 function App() {
   return (
     <Provider store={store}>
-      <ThemeProvider>
-        <NavigationContainer>
-          <RootNavigator />
-        </NavigationContainer>
-      </ThemeProvider>
+      <PersistGate loading={null} persistor={persistor}>
+        <ThemeProvider>
+          <NavigationContainer>
+            <RootNavigator />
+          </NavigationContainer>
+        </ThemeProvider>
+      </PersistGate>
     </Provider>
   );
 }
